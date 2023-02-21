@@ -1,17 +1,19 @@
 
-<table border="0" style="border-collapse:collapse;width:470px;margin:5px;font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;" >
+<table border="0" style="border-collapse:collapse;width:500px;margin:0px;font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;" >
     <tr style="text-align:left;font-size:35px;font-family: Arial, Helvetica, sans-serif;">
         <!--<td rowspan="4">-->
         <!--    <?php// $logo =  $company['Logo']; ?>-->
         <!--    <img style="width: 100px; height:100px" src="<?php echo base_url($avatar_dir . '/'.$logo); ?>"  alt="logo">&nbsp;-->
         <!--</td>-->
-        <td colspan="5" style="font-size:18px;font-family: Arial, Helvetica, sans-serif;vertical-align: top;width: 60%;"><b> <?php echo $company['CompanyName'] ?><?php echo $company['CompanyName2'] ?></b>
+        <td colspan="5" style="font-size:18px;font-family: Arial, Helvetica, sans-serif;vertical-align: top;width: 56%;"><b> <?php echo $company['CompanyName'] ?><?php echo $company['CompanyName2'] ?></b>
         </td>
 
+        <td style="width:12%;"></td>
 
-       <td  rowspan="4" style="font-size:18px;font-family: Arial, Helvetica, sans-serif;vertical-align: top;width: 60%;">
+
+       <td  rowspan="4" style="font-size:18px;font-family: Arial, Helvetica, sans-serif;vertical-align: top;width: 80%;">
          <?php $logo =  $company['Logo']; ?>
-           <img  src="<?php echo base_url($avatar_dir . '/'.$logo); ?>"  alt="logo" style="height: 70px;">
+           <img  src="<?php echo base_url($avatar_dir . '/'.$logo); ?>"  alt="logo" style="height: 62px;">
         </td>
 
 
@@ -27,28 +29,36 @@
 
     </tr>
   
-     <tr style="text-align:left;color:#9a9494 !important;font-size:13px;font-family: Arial, Helvetica, sans-serif;">
-        <td colspan="5">Web : leaditsolutions.lk 
-            <br>E-mail :<?php echo $company['Email01'] ?></td>
-        <td>
-            
-        </td>
-        
-    </tr>
-    
+
     <tr style="text-align:left;color:#9a9494 !important;font-size:13px;font-family: Arial, Helvetica, sans-serif;">
-        <td colspan="5">Tel : <?php echo $company['LanLineNo'] ?>, <?php echo $company['Fax'] ?> <?php echo $company['MobileNo'] ?></td>
+        <td colspan="5">  Tel: <?php echo $company['LanLineNo'] ?>  <?php echo $company['MobileNo'] ?></td>
+        
+
+
+      
+        
+    </tr>
+     
+      <tr style="text-align:left;color:#9a9494 !important;font-size:13px;font-family: Arial, Helvetica, sans-serif;">
+        <td colspan="5">Fax:<?php echo $company['Fax'] ?> | Email:<?php echo $company['Email01'] ?>
+        <br>
+        Website:www.leaditsolutions.lk
+          
+          </td>
         <td>
             
         </td>
         
     </tr>
+
+   
     
    
     <!-- <tr style="text-align:center;font-size:14px;border-bottom: #000 solid 1px;padding-bottom:5px;">
         <td colspan="6">&nbsp;</td>
     </tr> -->
 </table>
+<br>
   
         
 
