@@ -84,7 +84,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <td colspan="2" rowspan="6" style="border:0px solid #000;font-size:15px;width:430px;padding: 5px;" v-align="top">
             <?php $this->load->view('admin/_templates/company_header.php',true); ?>
-            <span style="font-size: 13px;">BILL TO :&nbsp;&nbsp;
+            <span style="font-size: 13px;"  ><b>BILL TO :</b>&nbsp;&nbsp;
                 <a href="<?php echo base_url('admin/payment/view_customer/').$invCus->CusCode ?>">
                 <?php echo $invCus->DisplayName;?></a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-size: 13px;" id="lbladdress2">TP : <?php echo $invCus->LanLineNo;?> Mobile : <?php echo $invCus->MobileNo;?></span>
             <?php if ($invCus->DisType==4): ?>
@@ -96,11 +96,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </td>
     </tr>
 
-                <tr style="text-align:left;font-size:13px;">
+                <tr style="text-align:left;font-size:25px;">
                     <!--        <td> &nbsp;</td>-->
                     <!--<td style="text-align:left;"></td>-->
                     <!--<td style=""></td>-->
-                    <td colspan="4" style="text-align:right;"><b>&nbsp;INVOICE</b></td>
+                    <td colspan="4" style="text-align:right;"><b>&nbsp;Invoice</b></td>
                 </tr>
 <!--                <tr style="text-align:left;font-size:15px;">-->
 <!--                            <td> &nbsp;</td>-->
@@ -110,13 +110,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!--                </tr>-->
                 <tr style="text-align:left;font-size:13px;">
                     <!--        <td> &nbsp;</td>-->
-                    <td style="padding-top:0px;font-size:13px;text-align:left;">Invoice No </td>
+                    <td style="padding-top:0px;font-size:13px;text-align:left;"><b>INVOICE#</b> </td>
                     <td style="">:</td>
                     <td colspan="2" style="font-size:13px;text-align:right;"><?php echo $invHed->SalesInvNo ?></td>
                 </tr>
                 <tr style="text-align:left;font-size:13px;">
                     <!--        <td> &nbsp;</td>-->
-                    <td style="text-align:left;">Date</td>
+                    <td style="text-align:left;"><b>INVOICE DATE</b></td>
                     <td >:</td>
                     <td colspan="2" style="text-align:right;"><?php echo date('Y-m-d',strtotime($invHed->SalesDate));?>&nbsp;</td>
                 </tr>
