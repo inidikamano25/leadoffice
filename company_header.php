@@ -28,7 +28,8 @@
     </tr>
   
      <tr style="text-align:left;color:#9a9494 !important;font-size:13px;font-family: Arial, Helvetica, sans-serif;">
-        <td colspan="5">Web : leaditsolutions.lk E-mail :<?php echo $company['Email01'] ?></td>
+        <td colspan="5">Web : leaditsolutions.lk 
+            <br>E-mail :<?php echo $company['Email01'] ?></td>
         <td>
             
         </td>
