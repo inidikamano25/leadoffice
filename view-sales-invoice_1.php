@@ -322,7 +322,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                           <!--, power fluctuation lightning or other natural disaster, sabotage or accident etc. Are not included under this warranty, Repairs or replacement necessitated by such-->
                           <!--causes are not covered by the warranty are subject to change for labour, time and material.-->
                           <tr><td colspan="6" style="text-align:left;"><b>Cheques to be drawn in favour of "Lead IT Solutions (PVT) LTD"</b></td></tr>
-         <tr><td colspan="5" style="text-align:right;width:550px;">&nbsp;</td></tr> -->
+         <tr><td colspan="5" style="text-align:right;width:550px;">&nbsp;</td></tr> 
                       
                            <tr>
                             <td style="width:150px;text-align: left">&nbsp;</td>
