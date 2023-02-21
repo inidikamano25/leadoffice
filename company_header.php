@@ -1,5 +1,5 @@
 
-<table style="border-collapse:collapse;width:430px;margin:5px;font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;" border="0">
+<table  style="border-collapse:collapse;width:490px;margin:5px;font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;" border="0">
     <tr style="text-align:left;font-size:35px;font-family: Arial, Helvetica, sans-serif;">
         <!--<td rowspan="4">-->
         <!--    <?php// $logo =  $company['Logo']; ?>-->
@@ -8,7 +8,9 @@
         <td colspan="5" style="font-size:20px;font-family: Arial, Helvetica, sans-serif;text-align: left;"><b> <?php echo $company['CompanyName'] ?><?php echo $company['CompanyName2'] ?></b>
         </td>
 
-        <td colspan="5" style="font-size:20px;font-family: Arial, Helvetica, sans-serif;text-align: left;"><b> <img  src="<?php echo base_url('upload/avatar/invoicelogo.png'); ?>" style="width: 300px;" >
+        <td  style="margin-left:20px;" >
+           <?php $logo =  $company['Logo']; ?>
+           <img  src="<?php echo base_url($avatar_dir . '/'.$logo); ?>"  alt="logo">
         </td>
         
     </tr> 
