@@ -146,7 +146,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <th style='padding: 3px;color:#fff; text-align:center;'>Description</th>
                             <!--<th style='padding: 3px;color:#fff; text-align:center;'>Warranty</th>-->
                             <th style='padding: 3px;color:#fff; text-align:center;'>Qty</th>
-
+    <th style='padding: 3px;color:#fff; text-align:center;'>Warranty</th>
 
                                                         <th style='padding: 3px;color:#fff; text-align:center;' >Unit Price</th>
                             <th style='padding: 3px;color:#fff; text-align:center;'>Amount</th>
@@ -322,7 +322,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                           $payment_term="Credit";
                           ?>
                          <tr style="line-height:25px;" id="rowVAT">
-                          <td colspan="2" style="border-left: 1px #fff solid;border-bottom: 1px #fff solid;"></td><td style="text-align:right;font-weight:bold;background-color:#e4dbdb !important;">TOTAL PAYABLE  </td><td id="lbltotalVat"   style='font-weight:bold;text-align:right;background-color:#e4dbdb !important;'><?php echo number_format($invHed->SalesCreditAmount,2);?></td>
+                          <td colspan="3" style="border-left: 1px #fff solid;border-bottom: 1px #fff solid;"></td><td style="text-align:right;font-weight:bold;background-color:#e4dbdb !important;">TOTAL PAYABLE  </td><td id="lbltotalVat"   style='font-weight:bold;text-align:right;background-color:#e4dbdb !important;'><?php echo number_format($invHed->SalesCreditAmount,2);?></td>
                          </tr><?php } ?>
                          <?php if($invHed->SalesReturnAmount>0){
                           
