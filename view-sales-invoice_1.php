@@ -245,7 +245,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                               <?php if($invHed->SalesAdvancePayment>0){?>
                             <tr>                                                      
                         
-  <td colspan="2"  style="border-left: 1px #fff solid; border-bottom: 1px #fff solid;border-right: 1px #000 solid;"></td>
+  <td colspan="3"  style="border-left: 1px #fff solid; border-bottom: 1px #fff solid;border-right: 1px #000 solid;"></td>
                                <td style="text-align:right;border-right: 1px #000 solid;" ><b>Advance</b>  </td>
                                 <td id="totalAdvance" style='text-align:right;border-right: 1px #000 solid; '><?php echo number_format($invHed->SalesAdvancePayment,2);?></td>
                             </tr>
